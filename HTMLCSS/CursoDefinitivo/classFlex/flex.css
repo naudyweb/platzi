@@ -2,40 +2,153 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-html {
+  }
+  
+  html {
     font-size: 62.5%;
-}
-
-body {
+    font-family: sans-serif;
+    background-color: #f6f6f6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: #b7bbc4;
+  }
+  
+  li {
+    display: inline-block;
     font-size: 1.6rem;
-}
-
-.container {
-    border: .3rem solid black;
+    list-style: none;
+    color: white;
+  }
+  
+  .header-container {
+    width: 100%;
+    background-color: #121f3d;
+  }
+  
+  .header-nav {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    height: 8rem;
     flex-wrap: wrap;
-}
-
-.box {
-    width: 10rem;
+  }
+  
+  .header-menu li {
+    font-weight: bold;
+    padding: 0 3rem;
+  }
+  
+  .main-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .section-container {
+    padding: 2rem;
+    background-color: #f6f6f6;
+  }
+  
+  .article-title {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .article-subtitle {
+    font-size: 3rem;
+    color: #b7bbc4;
+    margin-bottom: 3rem;
+  }
+  
+  .article-text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .article-cards_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .article-card {
+    width: 25rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 10rem;
-}
-
-.box1 {
-    background-color: blue;
-}
-.box2 {
-    background-color: red;
-}.box3 {
-    background-color: green;
-}.box4 {
-    background-color: yellow;
-}.box5 {
-    background-color: purple;
-}.box6 {
-    background-color: aqua;
-}
-
+    color: white;
+    padding: 1rem;
+    font-size: 5rem;
+    border-radius: 1rem;
+  }
+  
+  .html {
+    background-color: #e45126;
+  }
+  
+  .css {
+    background-color: #0c73b8;
+  }
+  
+  .js {
+    background-color: #e4a228;
+  }
+  
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #1e5270;
+    flex-wrap: wrap;
+  }
+  
+  .aside-article {
+    width: 30rem;
+    color: white;
+    background-color: #33b1ff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 1rem;
+  }
+  
+  .aside-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .aside-text {
+    font-size: 1.5rem;
+  }
+  
+  .footer-container {
+    width: 100%;
+    color: white;
+    background-color: #1c3643;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 15rem;
+    padding: 0 5rem;
+  }
+  
+  .footer-slogan {
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+  
+  .footer-social {
+    font-size: 1.5rem;
+  }
+  
+  .footer-text_social {
+    margin-bottom: 1rem;
+  }
