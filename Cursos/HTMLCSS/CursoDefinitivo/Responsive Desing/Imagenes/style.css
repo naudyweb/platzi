@@ -7,6 +7,19 @@
 html {
     font-size: 62.5%;
 }
-img {
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+}
+
+.s1,
+.s2,
+.s3,
+.s4,{
+    height: 100px;
+}
+.s1{
+    background-color: yellow;
 }

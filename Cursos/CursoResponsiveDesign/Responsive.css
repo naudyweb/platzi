@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.s1,
+.s2,
+.s3,
+.s4 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+    
+}
+
+.s1{
+    background-color: yellow;
+}
+.s2 {
+    background-color: blue;
+}
+.s3 {
+    background-color: red;
+}
+.s4 {
+    background-color: black;
+}
+
+@media (min-width: 600px) {
+    .s1{
+        width: 40%;
+    }
+    .s2 {
+        width: 60%;
+    }
+    
+}
+
+@media (min-width: 800px) {
+    .container{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .s1 {
+        width: 30%;
+    }
+    .s2 {
+        width: 30%;
+    }
+    .s3 {
+        width: 40%;
+    }
+}
