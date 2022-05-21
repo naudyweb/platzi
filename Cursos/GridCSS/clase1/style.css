@@ -1,0 +1,36 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-auto-columns: 150px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.item1 {
+    background-color: #ADD901;
+    position: relative;
+}
+
+.item2{
+    background-color: #74C111;
+}
+
+.item3{
+    background-color: #102906;
+}
+p {
+    font-size: 4rem;
+}
+.item1 p{
+    background-color: #278002;
+    color: wheat;
+}
+.item2 p{
+    background-color: #278002;
+    color: wheat;
+}
+.item3 p{
+    background-color: #278002;
+    color: wheat;
+}

@@ -8,9 +8,22 @@ html {
     font-size: 62.5%;
 }
 
+body{
+    padding: 5rem 0;
+}
 .container {
-    display: flex;
-    flex-wrap: wrap;
+        width: 300px;
+        max-width: 300px;
+        height: 600px;
+        position: relative;
+        border: 8px solid black;
+        border-radius: 40px;
+        background-color: #CCEFFF;
+        box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+        overflow: hidden;
+        counter-reset: game;
+        
+    
 }
 
 .c1, 
@@ -20,7 +33,7 @@ html {
 .c5 {
     width: 100%;
     min-width: 150px;
-    height: 150px;
+    height: 20%;
 }
 
 .c1{
