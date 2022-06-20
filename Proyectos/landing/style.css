@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    
+    background: url('./fondo.jpg') top left/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    max-width: 100%;
+    background-color: black;
+}
+h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+/*
+ * Styles for the top bar start
+ */
+
+ #tools {
+    background: #4d5b73;
+} 
+
+form {
+    margin: 7px 0px 0px 20px;
+    padding: 0px;
+    float: left;
+}
+
+input#url:focus {
+    background: #2B3546;
+    color: white;
+}
+
+input#url, #tools input[type="submit"] {
+    background: #e3e3e3;
+}
+
+div.who {
+    float: right;
+    margin-right: 20px;
+}
+
+.who span {
+    opacity: 0.4;
+}
+
+.who a {
+    color: white;
+    text-decoration: none;
+}
+
+.who a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* this is a temporary hack for placeholder text */
+input::-webkit-input-placeholder {
+    color:    #4a6469;
+}
+input:-moz-placeholder {
+    color:    #4a6469;
+}
+/* this is a temporary hack for placeholder text */
+
+#tools input[type="submit"] {
+    color: #4D5B73;
+}
+
+/*
+ * Styles for the top bar end
+ */
