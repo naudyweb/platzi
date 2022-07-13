@@ -47,30 +47,152 @@ html {
     flex-direction: column;
 }
 
+.container h1 {
+    color: #143255;
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+.container h2 {
+    color: #143255;
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+
+.container h4 {
+    color: #143255;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
 .container hr {
     margin: 4% 0 4% 0
 }
 
 .container p {
     padding-bottom: 4%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #143255;
+
 }
 .flex-container {
     display: flex;
     flex-direction: row;
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 10%;
    
     
 }
 .flex-left {
     margin-top: 5%;
     width: 50%;
-  
+    
     margin-right: 10%;
 }
+
 
 .flex-right {
     margin-top: 5%;
     width: 50;
     margin-left: 10%;
+}
+.flex-left h3{
+    color: #143255;
+    font-weight: 700;
+    font-size: 1.4;
+}
+.flex-right h3{
+    color: #143255;
+    font-weight: 700;
+    font-size: 1.4;
+}
+
+.flex-left p {
+    color: black;
+    font-size: 1.4rem;
+}
+.flex-right p {
+    color: black;
+    font-size: 1.4rem;
+}
+#more {display: none;}
+
+#myBtn{
+    display: flex;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 5px;
+    padding: 8px 25px 8px 25px;
+    color: #fff;
+    border-color: none;
+    background-color: #143255;
+    width: 150px;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.input-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10%;
+  }
+  
+  .footer {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10%;
+    flex-direction: column;
+
+  }
+
+
+.footer h2{
+    color: #143255;
+    font-size: 3.5rem;
+    font-weight: 400;
+    
+}
+
+.formulario{
+    padding: 4% 0 4% 0  ;
+    display: block;
+    flex-direction: column;
+}
+ 
+#nombre  {
+    padding: 8px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #143255;
+}
+#apellido  {
+    padding: 8px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #143255;
+}
+
+#email  {
+    padding: 8px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #143255;
+}
+
+#mensaje  {
+    padding: 8px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #143255;
+}
+
+input[type=submit] {
+    padding: 8px 70px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #143255;
+    background-color: #143255;
+    color: #fff;
 }

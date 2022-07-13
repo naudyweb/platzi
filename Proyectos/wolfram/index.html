@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Open+Sans&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="/Platzi/Proyectos/wolfram/js/app.js"></script>
     <title>Wolfran Landing Page</title>
 </head>
 <body>
@@ -16,23 +17,23 @@
         <nav class="menu">
             <ul class="link-header">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#1">Home</a>
                 </li>                      
                 <li>
-                    <a href="#">Coverage</a>
+                    <a href="#2">Coverage</a>
                 </li>     
            
                 <li>
-                    <a href="#">Reaserch</a>
+                    <a href="#3">Reaserch</a>
                 </li>           
            
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#4">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="container">
+    <main class="container" id="1">
         <h1>Wolfran Technologies</h1>
         <h4>Making stuff happen</h4>
         <hr { 
@@ -50,14 +51,14 @@
             malesuada, sodales enim. In et lacinia lacus, rutrum lobortis lacus. Mauris sagittis facilisis nunc, eu 
             dignissim ipsum imperdiet ac. v</p>
 
-        <h2>Major Coverage Areas</h2>
+        <h2 id="2">Major Coverage Areas</h2>
 
       
 
             
 
     </main>
-    <section class="flex-container">
+    <section class="flex-container" id="3">
         <div class="flex-left">
            <h3>Lorem ipsum dolor</h3>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -91,6 +92,42 @@
             <img src="/Platzi/Proyectos/wolfram/img/4.png" alt="wolfran1">
             <h4>Lorem ipsum dolor</h4>
         </div>
+    </section>
+
+    <span id="dots">...</span><span id="more"> 
+    
+        <section class="flex-container">
+            <div class="flex-left">
+               <img src="/Platzi/Proyectos/wolfram/img/1.png" alt="wolfran1">
+                <h4>Lorem ipsum dolor</h4>
+                <img src="/Platzi/Proyectos/wolfram/img/2.png" alt="wolfran1">
+                <h4>Lorem ipsum dolor</h4>
+               
+            </div>
+            <div class="flex-right">
+                <img src="/Platzi/Proyectos/wolfram/img/3.png" alt="wolfran1">
+                <h4>Lorem ipsum dolor</h4>
+                <img src="/Platzi/Proyectos/wolfram/img/4.png" alt="wolfran1">
+                <h4>Lorem ipsum dolor</h4>
+            </div>
+        </section>
+       
+
+    </span>
+    <button onclick="myFunction()" id="myBtn">See more</button>
+    <section class="footer">   
+        <h2 id="4">Contact Us</h2>
+        <form class="formulario">
+            <label for="nombre"></label>
+            <input id="nombre" name="nombre" placeholder="First Name">
+            <label for="nombre"></label>
+            <input id="apellido" name="apellido" placeholder="Last name">
+            <label for="email"></label><br>
+            <input id="email" name="email" type="email" placeholder="ejemple@email.com">
+            <label for="mensaje"></label><br>
+            <textarea id="mensaje" name="mensaje" placeholder="your message"></textarea><br>
+            <input id="submit" name="submit" type="submit" value="Send">
+     </form>
     </section>
 </body>
 </html>
