@@ -1,0 +1,8 @@
+.elementor-11 .elementor-element.elementor-element-d3fe41b .pp-post-title, .elementor-11 .elementor-element.elementor-element-d3fe41b .pp-post-title a{
+    display: flex;
+    margin-top: -15%;
+    background-color: #0000006e;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
